@@ -1,6 +1,11 @@
 # Meteor Mayhem: Arcade Reforged v2.3
 
-A modular C/Raylib revival of the original **Meteor Mayhem** prototype.
+A modular C/Raylib reboot of the original arcade game **Asteroids**. Made for our term project for CSE 4202 course.
+
+# Authors
+
+- Abid(230041144)
+- Sami Rahman(230041111)
 
 ## Features
 
@@ -14,13 +19,14 @@ A modular C/Raylib revival of the original **Meteor Mayhem** prototype.
 - Two switchable player weapons:
   - **Laser:** fast fire rate, long range, one accurate bolt.
   - **Scattershot:** seven pellets, wide spread, short range, slower fire rate.
-- Alien-core shield power-up:
+- Alien-core **OVERDRIVE** power-up:
   - Each destroyed alien adds 25-45% charge, based on difficulty.
   - Press `S` when the bar is full for eight seconds of invincibility.
   - Alien kills cannot recharge the shield while it is active.
   - Shield expiry grants 1.25 seconds of blinking invincibility frames.
   - Shielded collisions destroy asteroids and alien ships on contact.
   - Shield overdrive awards 1.5x points while active.
+  - Double fire-rate for the duration of overdrive.
 - Persistent high score and lifetime statistics.
 - A persistent Settings screen with:
   - Independent music and sound-effect toggles.
@@ -54,6 +60,7 @@ so an Ace pilot can earn up to 2.40x points while the shield is active.
 | Navigate menus | Arrow keys or `W` / `S` |
 | Change a setting | Left / right arrows or `A` / `D` |
 | Select | `Enter` |
+| God-Mode | **REDACTED** |
 
 The main menu contains **Start Game**, **Settings**, **Statistics**, and **Quit**.
 The statistics screen records high score, games played, asteroids smashed,

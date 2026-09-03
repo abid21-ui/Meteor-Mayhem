@@ -1,0 +1,10 @@
+/build/
+/build-mingw/
+/build-*/
+*.o
+/meteor_mayhem
+/meteor_mayhem.exe
+/meteor_stats.dat
+/meteor_stats.dat.tmp
+/meteor_settings.dat
+/meteor_settings.dat.tmp
